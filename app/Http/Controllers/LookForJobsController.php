@@ -13,6 +13,7 @@ class LookForJobsController extends Controller
 
     public function sendOpenAIRequest(questionValidation $question)
     {
-        dd('o');
+        $question = $question->get('question');
+        dd($question);
     }
 }

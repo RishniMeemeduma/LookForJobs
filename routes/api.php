@@ -18,6 +18,6 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 Route::group(['prefix'=>'/v1'] , function(){
-    Route::post('/question', 'App/Http/Controllers/LookForJobsController@sendOpenAIRequest');
+    Route::post('/question', 'App\Http\Controllers\LookForJobsController@sendOpenAIRequest');
 });
 
