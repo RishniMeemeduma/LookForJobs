@@ -66,4 +66,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 Important :
-Please provide OPEN_API_KEY="" generated from OPEN AI https://platform.openai.com/account/api-keys
+Please provide OPENAI_API_KEY="" generated from OPEN AI https://platform.openai.com/account/api-keys
